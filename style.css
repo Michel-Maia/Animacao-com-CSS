@@ -1,8 +1,138 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#71db54, #12122c);
+}
+
+h2 {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 8em;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+div img {
+    width: 45%;
+    height: 45%;
+}
+
+.set {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.set div {
+    position: absolute;
+    display: block;
+
+}
+
+.set div:nth-child(1){
+    left: 20%;
+    animation: animacao 15s linear infinite;
+    animation-delay: -7s;
+}
+
+.set div:nth-child(2){
+    left: 50%;
+    animation: animacao 20s linear infinite;
+    animation-delay: -5s;
+}
+
+.set div:nth-child(3){
+    left: 70%;
+    animation: animacao 25s linear infinite;
+}
+
+.set div:nth-child(4){
+    left: 0%;
+    animation: animacao 15s linear infinite;
+    animation-delay: -7s;
+}
+
+.set div:nth-child(5){
+    left: 85%;
+    animation: animacao 15s linear infinite;
+    animation-delay: -10s;
+}
+
+.set div:nth-child(6){
+    left: 0%;
+    animation: animacao 18s linear infinite;
+}
+
+.set div:nth-child(7){
+    left: 15%;
+    animation: animacao 14s linear infinite;
+}
+
+.set div:nth-child(8){
+    left: 60%;
+    animation: animacao 15s linear infinite;
+}
+
+.set div:nth-child(9){
+    left: 30%;
+    animation: animacao 20s linear infinite;
+    animation-delay: -5s;
+}
+
+@keyframes animacao{
+    0%{
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px) rotate(0deg);
+    }
+
+    10%{
+        opacity: 1;
+    }
+
+    20%{
+        transform: translateX(-20px) rotate(45deg);
+    }
+
+    30%{
+        transform: translateX(-20px) rotate(90deg);
+    }
+
+    60%{
+        transform: translateX(20px) rotate(135deg);
+    }
+
+    80%{
+        transform: translateX(-20px) rotate(180deg);
+    }
+    100%{
+        top: 110%;
+        transform: translateX(-20px) rotate(225deg);
+    }
+}
+
+.set2{
+    transform: scale(2) rotateY(180deg);
+}
+
+.set3{
+    transform: scale(0.8) rotateY(180deg);
+    filter: blur(4px);
+}
+
+

@@ -4,10 +4,10 @@
 ![preview](./.github/preview.png)
 
 
-Desenvolvido para aprendizado. Realizado animação com CSS. 14/10/22
+Desenvolvido para aprendizado. Realizado animação com CSS. 15/10/22
 
 
-[🔗 Clique aqui para acessar] (https://michel-maia.github.io/Botao-com-CSS/)
+[🔗 Clique aqui para acessar] (https://michel-maia.github.io/Animacao-com-CSS/)
 
 
 ## 💻 Tecnologias
